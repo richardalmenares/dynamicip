@@ -17,4 +17,17 @@ Unless we can automate this.
 ## Installation Guide 
 
 ### Docker
-TODO
+docker-compose.yaml
+```
+services:
+  dynamicip:
+    image: richardalmenares95/dynamicip:latest
+    container_name: dynamicip
+    environment:
+      DYNAMICIP_DOMAINS_0_: "test.domain.uk"
+      DYNAMICIP_DOMAINS_1_: "test2.domain.uk"
+      DYNAMICIP_DOMAINS_2_: "test3.domain.uk"
+      DYNAMICIP_CRON: "0 */2 * ? * *"
+      CLOUDFLARE_APIKEY: "api_key"
+      CLOUDFLARE_ZONEID: "zone_id"
+```
