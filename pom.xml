@@ -92,6 +92,7 @@
 	</dependencies>
 
 	<build>
+		<finalName>dynamicip</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
