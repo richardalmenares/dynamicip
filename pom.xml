@@ -11,7 +11,7 @@
 
 	<groupId>uk.almenares</groupId>
 	<artifactId>dynamicip</artifactId>
-	<version>1.0.0</version>
+	<version>1.1.0</version>
 	<name>dynamicip</name>
 	<description>Automatically Update IP Address Record</description>
 	<url>https://github.com/richardalmenares/dynamicip</url>
