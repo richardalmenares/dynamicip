@@ -1,4 +1,4 @@
-FROM openjdk:21-slim
+FROM amazoncorretto:21-alpine
 
 COPY target/dynamicip.jar dynamicip.jar
 
