@@ -1,4 +1,4 @@
-FROM amazoncorretto:21-alpine
+FROM amazoncorretto:25-alpine
 
 COPY target/dynamicip.jar dynamicip.jar
 
