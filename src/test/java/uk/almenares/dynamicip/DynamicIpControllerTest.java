@@ -22,7 +22,7 @@ class DynamicIpControllerTest {
     @Test
     void updateAllRecords() {
         restTestClient.post()
-                .uri("/api/v1/dynaminip/updateAll")
+                .uri("/api/v1/dynamicip/updateAll")
                 .exchange()
                 .expectStatus().isOk();
 
