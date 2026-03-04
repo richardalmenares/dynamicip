@@ -64,6 +64,10 @@
             <artifactId>spring-boot-starter-restclient</artifactId>
         </dependency>
 		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-webmvc</artifactId>
+		</dependency>
+		<dependency>
 			<groupId>org.apache.httpcomponents.client5</groupId>
 			<artifactId>httpclient5</artifactId>
 		</dependency>
@@ -88,6 +92,10 @@
 			<artifactId>wiremock-testcontainers-module</artifactId>
 			<version>${wiremock-testcontainers-module.version}</version>
 			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-webmvc-test</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>org.wiremock</groupId>
